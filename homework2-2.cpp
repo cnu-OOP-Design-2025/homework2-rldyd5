@@ -59,7 +59,8 @@ void fillStudentRecord(StudentStruct *students, int *numOfStudent) {
 /* Return student ID */
 int findBestStudentInMidterm(StudentStruct* students, int numOfStudent) {
     /* TODO */
-    double max = 0;
+    double max;
+    max = 0;
     int id;
     for (int i = 0; i < numOfStudent; i++)
     {
