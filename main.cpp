@@ -82,7 +82,8 @@ void doTest2(){
     StudentStruct charlie("Charlie", 1003, 70, 99.0);
 
 
-    int idx = -1;
+    int idx;
+    idx = -1;
     /* TODO: homework1.cpp의 findStudentByStudentID() 함수 호출을 homework2-2.h의 findStudentByStudentID 함수 선언에 맞춰 수정하기 */
     
     idx = findStudentByStudentID(students, numOfStudent, charlie.id);
